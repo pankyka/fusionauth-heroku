@@ -1,0 +1,44 @@
+{
+  "name": "Fusion Auth Server",
+  "description": "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes.",
+  "logo": "https://avatars.githubusercontent.com/u/41974756",
+  "keywords": [
+    "database",
+    "api",
+    "sso",    
+    "auth",
+    "oauth",
+    "heroku",
+    "postgres",
+    "fusion",
+    "fusionauth"
+  ],
+  "success_url": "/",
+  "website": "https://fusionauth.io",
+  "repository": "https://github.com/pankyka/fusion-auth-heroku",
+  "stack": "container",
+  "env": {
+    "ES_JAVA_OPTS": {
+      "description": "Sets JVM heap size for Elasticsearch.",
+      "value": "-Xms512m -Xmx512m"
+    },
+    "FUSIONAUTH_APP_MEMORY": {
+      "description": "The amount of memory to allocate to Java VM where this service will run.",
+      "value": "512M"
+    },
+    "FUSIONAUTH_APP_RUNTIME_MODE": {
+      "description": "The FusionAuth runtime mode. Set to 'production' to use in production mode.",
+      "value": "development"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
