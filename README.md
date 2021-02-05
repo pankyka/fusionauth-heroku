@@ -1,6 +1,6 @@
-# Fusion Auth Server on Heroku
+# Working FusionAuth Server on Heroku
 
-Fusion Auth Server provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes.
+FusionAuth Server provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes.
 
 We got this. Go build something awesome!
 
@@ -12,7 +12,7 @@ Read more at [fusionauth.io](https://fusionauth.io) and the [docs](https://fusio
 ## Quickstart
 
 ### 1. Deploy to Heroku
-Deploy to Fusion Auth Server with Heroku Postgres:
+Deploy to Fusion Auth Server with Heroku Postgres (free).
 
 [![Deploy to
 Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pankyka/fusion-auth-heroku)

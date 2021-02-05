@@ -1,5 +1,5 @@
 {
-  "name": "Fusion Auth Server",
+  "name": "FusionAuth Server (working)",
   "description": "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes.",
   "logo": "https://avatars.githubusercontent.com/u/41974756",
   "keywords": [
@@ -15,7 +15,7 @@
   ],
   "success_url": "/",
   "website": "https://fusionauth.io",
-  "repository": "https://github.com/pankyka/fusion-auth-heroku",
+  "repository": "https://github.com/pankyka/fusionauth-heroku",
   "stack": "container",
   "env": {
     "ES_JAVA_OPTS": {
