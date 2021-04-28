@@ -15,4 +15,4 @@ Read more at [fusionauth.io](https://fusionauth.io) and the [docs](https://fusio
 Deploy to Fusion Auth Server with Heroku Postgres (free).
 
 [![Deploy to
-Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pankyka/fusion-auth-heroku)
+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pankyka/fusionauth-heroku)
